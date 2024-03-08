@@ -1,0 +1,16 @@
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ImageDownSizer.csproj.GenerateResource.cache
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ImageDownSizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ImageDownSizer.AssemblyInfoInputs.cache
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ImageDownSizer.AssemblyInfo.cs
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ImageDownSizer.csproj.CoreCompileInputs.cache
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\bin\Debug\net8.0-windows\ImageDownSizer.exe
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\bin\Debug\net8.0-windows\ImageDownSizer.deps.json
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\bin\Debug\net8.0-windows\ImageDownSizer.runtimeconfig.json
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\bin\Debug\net8.0-windows\ImageDownSizer.dll
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\bin\Debug\net8.0-windows\ImageDownSizer.pdb
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ImageDownSizer.Form1.resources
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ImageDownSizer.dll
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\refint\ImageDownSizer.dll
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ImageDownSizer.pdb
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ImageDownSizer.genruntimeconfig.cache
+C:\Users\123\source\repos\ImageDownSizer\ImageDownSizer\obj\Debug\net8.0-windows\ref\ImageDownSizer.dll
