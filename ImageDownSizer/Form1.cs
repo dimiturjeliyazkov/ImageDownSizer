@@ -40,7 +40,7 @@ namespace ImageDownSizer
                 int originalStride = originalData.Stride;
                 int newStride = newData.Stride;
 
-                // Split the work among multiple threads
+                
                 int numThreads = Environment.ProcessorCount;
                 Thread[] threads = new Thread[numThreads];
 
@@ -63,22 +63,21 @@ namespace ImageDownSizer
                                 byte* originalPixel = originalPtr + originalY * originalStride + originalX * 3;
                                 byte* newPixel = newPtr + y * newStride + x * 3;
 
-                                // Assign color of original pixel to new pixel
-                                newPixel[2] = originalPixel[2]; // Red
-                                newPixel[1] = originalPixel[1]; // Green
-                                newPixel[0] = originalPixel[0]; // Blue
+                                
+                                newPixel[2] = originalPixel[2]; 
+                                newPixel[1] = originalPixel[1]; 
+                                newPixel[0] = originalPixel[0]; 
                             }
                         }
                     });
                 }
 
-                // Start all threads
                 foreach (var thread in threads)
                 {
                     thread.Start();
                 }
 
-                // Wait for all threads to complete
+                
                 foreach (var thread in threads)
                 {
                     thread.Join();
@@ -101,7 +100,7 @@ namespace ImageDownSizer
                 string selectedFile = openFileDialog.FileName;
                 selectedImage = Image.FromFile(selectedFile);
                 pictureBox.ClientSize = new Size(selectedImage.Width, selectedImage.Height);
-                pictureBox.SizeMode = PictureBoxSizeMode.Zoom; // Set SizeMode to Zoom
+                pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
                 pictureBox.Image = selectedImage;
             }
         }
@@ -122,9 +121,9 @@ namespace ImageDownSizer
             }
 
             Bitmap downscaledImage = DownscaleImage(selectedImage, scaleFactor);
-            pictureBox.SizeMode = PictureBoxSizeMode.Zoom; // Set SizeMode to Zoom
+            pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox.Image = downscaledImage;
-            pictureBox.ClientSize = new Size(downscaledImage.Width, downscaledImage.Height); // Resize pictureBox
+            pictureBox.ClientSize = new Size(downscaledImage.Width, downscaledImage.Height); 
         }
     }
 }
